@@ -9,16 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
-
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
-
-    <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <title>SidoTravel</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body class="bg-secondary">
@@ -36,7 +31,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                <img src="ikon3.png" height="30" widht="30"> Wisata Pantai
+                <img src="ikon3.png" height="30" width="30"> Wisata Pantai
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">Pantai Kuta</a>
@@ -46,7 +41,7 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                  <img src="ikon4.png" height="30" widht="30"> Wisata Religi
+                  <img src="ikon4.png" height="30" width="30"> Wisata Religi
                 </a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Candi Borobudur</a>
@@ -56,7 +51,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                  <img src="ikon5.png" height="30" widht="30"> Wisata Kuliner
+                  <img src="ikon5.png" height="30" width="30"> Wisata Kuliner
                 </a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Simpang Lima</a>
@@ -107,103 +102,89 @@
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+              </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+              <div class="col-lg-4">
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         Wisata Pantai
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn btn-block btn-primary">Pantai Kutai</button>
+                        <button class="btn btn-block btn-primary">Pantai Indrayanti</button>
+                        <button class="btn btn-block btn-primary">Pantai Tiga Warna</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Wisata Religi
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn btn-block btn-primary">Candi Borobudur</button>
+                        <button class="btn btn-block btn-primary">Masjid Istiqlal</button>
+                        <button class="btn btn-block btn-primary">Masjid Al-Akbar</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Wisata Kuliner
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <button class="btn btn-block btn-primary">Simpang Lima</button>
+                        <button class="btn btn-block btn-primary">Pecenongan</button>
+                        <button class="btn btn-block btn-primary">Pasar Beningharjo</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <p>
-                <hr class="my-4"><p>
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div id="accordion">
-                      <div class="card">
-                        <div class="card-header" id="headingOne">
-                          <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                             Wisata Pantai
-                            </button>
-                          </h5>
-                        </div>
-                    
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                          <div class="card-body">
-                            <button class="btn btn-block btn-primary">Pantai Kutai</button>
-                            <button class="btn btn-block btn-primary">Pantai Indrayanti</button>
-                            <button class="btn btn-block btn-primary">Pantai Tiga Warna</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingTwo">
-                          <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Wisata Religi
-                            </button>
-                          </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                          <div class="card-body">
-                            <button class="btn btn-block btn-primary">Candi Borobudur</button>
-                            <button class="btn btn-block btn-primary">Masjid Istiqlal</button>
-                            <button class="btn btn-block btn-primary">Masjid Al-Akbar</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingThree">
-                          <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Wisata Kuliner
-                            </button>
-                          </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                          <div class="card-body">
-                            <button class="btn btn-block btn-primary">Simpang Lima</button>
-                            <button class="btn btn-block btn-primary">Pecenongan</button>
-                            <button class="btn btn-block btn-primary">Pasar Beningharjo</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+              <div class="col-lg-4">
+                <div class="card" style="width: 100%;">
+                  <img class="card-img-top" src="img4.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Wisata Unik</h5>
+                    <p class="card-text">Jelajahi Candi bersejarah Borobudur yang indah di Kabupaten Magelang </p>
+                    <a href="#" class="btn btn-primary">Selengkapnya</a>
                   </div>
-                  <div class="col-lg-4">
-                    <div class="card" style="width: 100%;">
-                      <img class="card-img-top" src="img4.jpeg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Wisata Unik</h5>
-                        <p class="card-text">Jelajahi Candi bersejarah Borobudur yang indah di Kabupaten Magelang </p>
-                        <a href="#" class="btn btn-primary">Selengkapnya</a>
-                      </div>
-                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card" style="width: 100%;">
+                  <img class="card-img-top" src="img5.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Wisata Enak</h5>
+                    <p class="card-text">Berwisata sambil mengisi perut dengan mengunjungi Simpang Lima</p>
+                    <a href="#" class="btn btn-primary">Selengkapnya</a>
                   </div>
-                  <div class="col-lg-4">
-                    <div class="card" style="width: 100%;">
-                      <img class="card-img-top" src="img5.jpeg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Wisata Enak</h5>
-                        <p class="card-text">Berwisata sambil mengisi perut dengan mengunjungi Simpang Lima</p>
-                        <a href="#" class="btn btn-primary">Selengkapnya</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>  
-                </div>  
+                </div>
+              </div>
             </div>
-            </div>
-        
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
-
-
-
-  
+</html>
